@@ -1,0 +1,112 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=18;
+	taxlabels
+	s_t_meek_26
+	s_t_meek_33
+	s_t_ochr_03
+	s_t_pseu_12
+	s_t_pseu_13
+	s_t_pseu_31
+	s_t_pseu_32
+	s_t_pseu_34
+	s_t_tent_04
+	s_t_toro_02
+	s_t_toro_06
+	s_t_toro_07
+	s_t_toro_08
+	s_t_toro_11
+	s_t_toro_15
+	s_t_toro_18
+	s_t_toro_19
+	s_t_toro_36
+;
+end;
+
+begin trees;
+	tree con_50_majrule = [&U] (s_t_meek_26[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00151482973,length_median=0.0015688895,length_95%HPD={9.78421967E-4,0.00208763961}]:0.001569,s_t_toro_15[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00751311728,length_median=0.00741208946,length_95%HPD={0.00680070586,0.00861451279}]:0.007412,((((((s_t_meek_33[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=9.29544812E-4,length_median=8.58388288E-4,length_95%HPD={7.22248788E-4,0.00124412889}]:8.58E-4,(s_t_pseu_13[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00488063044,length_median=0.00489235406,length_95%HPD={0.00458957013,0.00516486269}]:0.004892,(s_t_pseu_31[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=7.39448067E-4,length_median=7.14148507E-4,length_95%HPD={6.42344289E-4,9.26622844E-4}]:7.14E-4,((s_t_pseu_32[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00115659229,length_median=0.00104634359,length_95%HPD={8.11603294E-4,0.00182155988}]:0.001046,s_t_pseu_34[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00108432247,length_median=0.0011605505,length_95%HPD={6.65345958E-4,0.00125149494}]:0.001161)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=4.12805917E-4,length_median=4.43556784E-4,length_95%HPD={2.16594697E-4,5.32543474E-4}]:4.44E-4,s_t_tent_04[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00292532291,length_median=0.00291245363,length_95%HPD={0.00238352222,0.00364419618}]:0.002912)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=2.14588535E-4,length_median=2.294677E-4,length_95%HPD={1.22647562E-4,2.97004271E-4}]:2.29E-4)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=2.36140049E-4,length_median=2.73264751E-4,length_95%HPD={9.39847525E-5,3.17059615E-4}]:2.73E-4)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=3.0547181E-4,length_median=3.48752002E-4,length_95%HPD={1.32554495E-4,6.0748658E-4}]:3.49E-4)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=3.49693592E-4,length_median=3.76538906E-4,length_95%HPD={1.14669027E-4,6.10342275E-4}]:3.77E-4,s_t_pseu_12[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0036795812,length_median=0.00368476769,length_95%HPD={0.00331213259,0.00405058012}]:0.003685)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=5.38157296E-4,length_median=5.31977968E-4,length_95%HPD={3.63439472E-4,7.97981996E-4}]:5.32E-4,s_t_toro_11[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00762039248,length_median=0.00760437592,length_95%HPD={0.00733739882,0.00808337078}]:0.007604)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=3.42090997E-4,length_median=3.50784522E-4,length_95%HPD={2.72032265E-4,4.22617343E-4}]:3.51E-4,(s_t_toro_08[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00631972373,length_median=0.00659495496,length_95%HPD={0.00546905357,0.0069651028}]:0.006595,s_t_ochr_03[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00580017633,length_median=0.00605598812,length_95%HPD={0.00483666247,0.00620721725},!rotate=true]:0.006056)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=6.00552188E-4,length_median=5.42495134E-4,length_95%HPD={2.87930345E-4,8.93511839E-4}]:5.42E-4)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=2.44962183E-4,length_median=2.75297793E-4,length_95%HPD={1.08024475E-4,3.67836594E-4}]:2.75E-4,(s_t_toro_02[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00430943987,length_median=0.00430592723,length_95%HPD={0.00393650249,0.00477763666}]:0.004306,(s_t_toro_19[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00759497588,length_median=0.00770780965,length_95%HPD={0.00727836765,0.0078505574}]:0.007708,s_t_toro_36[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00166043955,length_median=0.00169729362,length_95%HPD={0.00143626083,0.00207512653}]:0.001697)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=4.42396583E-4,length_median=4.15374078E-4,length_95%HPD={3.95056608E-4,5.60479324E-4}]:4.15E-4)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=2.11106573E-4,length_median=1.91644412E-4,length_95%HPD={1.05945746E-4,4.33244738E-4}]:1.92E-4)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=2.99068147E-4,length_median=3.01609825E-4,length_95%HPD={1.98068278E-4,4.67842012E-4}]:3.02E-4,((s_t_toro_06[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00472249027,length_median=0.00475724521,length_95%HPD={0.00414383032,0.0053050548}]:0.004757,s_t_toro_07[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00433637734,length_median=0.00447399637,length_95%HPD={0.00389871111,0.00471456944}]:0.004474)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=8.89106867E-4,length_median=8.9661933E-4,length_95%HPD={7.54504756E-4,0.00107522644}]:8.97E-4,s_t_toro_18[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00563253844,length_median=0.00549809091,length_95%HPD={0.00495718971,0.00688403994}]:0.005498)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=3.54305481E-4,length_median=3.81961985E-4,length_95%HPD={2.39040864E-4,4.65475665E-4}]:3.82E-4)[&prob=0.666666667,prob_stddev=0.0,prob_range={0.666666667,0.666666667},prob(percent)="67",prob+-sd="67+-0",length_mean=2.15301605E-4,length_median=2.17576407E-4,length_95%HPD={1.50363068E-4,3.15406648E-4}]:2.18E-4);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="prob";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
